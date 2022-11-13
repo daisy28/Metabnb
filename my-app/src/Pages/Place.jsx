@@ -5,7 +5,7 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Location from "../components/Location"
 
-const Place = () => {
+const Place = ({toggleBtn}) => {
 
      const data = cardData2.map((cards) => {
           return <Cards 
@@ -17,7 +17,7 @@ const Place = () => {
 
      return(
           <div>
-               <Header />
+               <Header toggleBtn={toggleBtn} />
                <Location />
                <div className="cards-wrapper">
                     <div className="cards-container">

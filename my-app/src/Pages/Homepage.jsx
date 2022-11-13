@@ -9,7 +9,7 @@ import Footer from "../components/Footer"
 
 
 
-function App() {
+function App({toggleBtn}) {
 
   const data = cardData.map((cards) => {
     return <Cards 
@@ -19,13 +19,9 @@ function App() {
   })
 
 
-
-
-
-
   return (
     <div className="app">
-      <Header/>
+      <Header toggleBtn={toggleBtn} />
       <Hero />
       <div className="cards-wrapper">
       <h1>Inspiration for your next adventure</h1>
