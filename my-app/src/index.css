@@ -189,7 +189,7 @@
   align-items: center;
   margin-bottom: .8rem;
   color: var(--black);
-  font-size: .9rem;
+  font-size: .8rem;
  }
 
  .size{
@@ -273,6 +273,7 @@
  .social-links > p{
   font-size: 1.1rem;
   font-weight: 600;
+  line-height: 3rem;
  }
 
  .social-links > a{
@@ -394,7 +395,7 @@
 .modal-btn{
   border: 1px solid var(--border-color);
   width: 100%;
-  padding: .8rem;
+  padding: .7rem;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -477,6 +478,10 @@
     padding: 2.5rem;
   }
 
+  .cards{
+    height: 400px;
+  }
+
   .cta{
     flex-direction: row;
     padding: 4rem;
@@ -504,6 +509,7 @@
 
   .group{
     width: 50%;
+    margin-bottom: 0;
   }
 
   .location{
