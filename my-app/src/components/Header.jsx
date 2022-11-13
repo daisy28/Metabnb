@@ -6,7 +6,7 @@ const Header = ({toggleBtn}) => {
 
      return(
           
-          <header>
+          <header className="header-container">
                <div className="header" id="header">
                     <img src={Logo} alt="" />
                     <div className="links">

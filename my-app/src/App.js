@@ -14,8 +14,6 @@ const App = () => {
                return !prevModal
                
           })
-
-          console.log(modal)
      }
 
       if (modal){

@@ -2,6 +2,7 @@ import React from "react"
 import Cards from "../components/Cards"
 import cardData from "../cardData"
 import Header from "../components/Header"
+import Menu from "../components/Menu"
 import Hero from "../components/Hero"
 import Cta from "../components/Cta"
 import Footer from "../components/Footer"
@@ -22,6 +23,7 @@ function App({toggleBtn}) {
   return (
     <div className="app">
       <Header toggleBtn={toggleBtn} />
+      <Menu toggleBtn={toggleBtn} />
       <Hero />
       <div className="cards-wrapper">
       <h1>Inspiration for your next adventure</h1>

@@ -2,6 +2,7 @@ import React from "react"
 import Cards from "../components/Cards"
 import cardData2 from "../cardData2"
 import Header from "../components/Header"
+import Menu from "../components/Menu"
 import Footer from "../components/Footer"
 import Location from "../components/Location"
 
@@ -18,6 +19,7 @@ const Place = ({toggleBtn}) => {
      return(
           <div>
                <Header toggleBtn={toggleBtn} />
+               <Menu toggleBtn={toggleBtn} />
                <Location />
                <div className="cards-wrapper">
                     <div className="cards-container">
