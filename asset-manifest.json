@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Metabnb/static/css/main.5f46fbc6.css",
+    "main.js": "/Metabnb/static/js/main.d9a2a20f.js",
+    "static/media/Frame 59546.png": "/Metabnb/static/media/Frame 59546.2aa177be147f93172c89.png",
+    "static/media/Group 4028.png": "/Metabnb/static/media/Group 4028.a190ae670b57a933e488.png",
+    "static/media/Group.svg": "/Metabnb/static/media/Group.69a97a8cf7498387c85734f13405b3b3.svg",
+    "index.html": "/Metabnb/index.html",
+    "main.5f46fbc6.css.map": "/Metabnb/static/css/main.5f46fbc6.css.map",
+    "main.d9a2a20f.js.map": "/Metabnb/static/js/main.d9a2a20f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f46fbc6.css",
+    "static/js/main.d9a2a20f.js"
+  ]
+}
