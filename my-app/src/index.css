@@ -351,7 +351,6 @@
   border-radius: 16px;
   background-color: #fff;
   position: absolute;
- 
  }
 
  .overlay{
@@ -401,6 +400,10 @@
   cursor: pointer;
   margin-bottom: .8rem;
   border-radius: 8px;
+}
+
+.modal-btn:hover{
+  background-color: #F8F9FA;
 }
 
 .modal-btn > a{
@@ -469,11 +472,9 @@
   }
 
   .cards-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2.5rem;
   }
 
   .cta{
@@ -531,8 +532,19 @@
   .header > .links{
     width: 40%;
   }
+
+  .cards{
+    width: 298px;
+  }
+
+  .cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: .2rem;
+  }
   
  }
+
 
 
 

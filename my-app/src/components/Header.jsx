@@ -38,7 +38,7 @@ const Header = () => {
                     <section className="wallet-container">
                          <div className="wallet-modal">
                     <div className="modal">
-                         <div className="overlay"></div>
+                         <div className="overlay" onClick={toggleBtn} ></div>
      
                          <div className="modal-header">
                          <h3>Connect Wallet</h3>
